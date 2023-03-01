@@ -1,0 +1,212 @@
+html {
+  font-family: 'Advent Pro', sans-serif;  }
+
+body {
+  background: #FDF3E7;
+  font-family: 'Open Sans',Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Advent Pro',Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    color: #c90000; }
+
+.title-bar {
+  background: #fff;
+  padding: 0.9rem;
+  display: none;
+}
+  
+@media only screen and (max-width: 40em) {
+    .title-bar{
+        display: block;
+    }
+    .top-bar {
+        display: none;
+    }
+}
+
+
+.top-bar {
+  display: block;
+  background: #fff; }
+  .top-bar ul {
+    background: #fff; }
+    .top-bar ul li {
+      background: #fff; }
+      .top-bar ul li a {
+        color: #ff6600; }
+
+.menu-text {
+    color: #ff6600;
+    padding: .1rem .1rem}
+  @media only screen and (max-width: 40em) {
+    .menu-text {
+      display: none !important; } }
+
+@media only screen and (min-width: 40em) {
+  .top-bar .menu:last-child {
+    border-left: 1px solid #fff; }
+
+  .top-bar .menu:first-child {
+    border-left: none; }
+
+  .top-bar .menu li:not(:last-child) {
+    border-right: 1px solid #fff; } }
+.dropdown.menu .submenu {
+  border: none; }
+
+.dropdown.menu .is-dropdown-submenu-parent.is-right-arrow > a::after {
+  border-color: #fff transparent transparent; }
+
+.is-drilldown-submenu-parent > a::after {
+  border-color: transparent transparent transparent #fff; }
+
+.js-drilldown-back::before {
+  border-color: transparent #fff transparent transparent; }
+
+.hamburger {
+    padding-top: 1rem;
+}
+
+.menu-icon {
+    outline: none;
+}
+  
+.menu-icon:after {
+    background: #ff6600;
+    box-shadow: 0 7px 0 #ff6600,0 14px 0 #ff6600;
+    width: 1.5rem;
+}
+
+.menu-icon:hover:after {
+    background: #c90000;
+    box-shadow: 0 7px 0 #c90000,0 14px 0 #c90000;
+    width: 1.5rem;
+}
+
+.menu>li>a {
+          font-family: 'Advent Pro';
+          font-size:1em;
+          text-align: center;}
+    @media only screen and (min-width: 40em) {
+        .menu>li>a {
+          line-height:2.5;
+          font-size:1.3em;
+          font-family: 'Advent Pro'; }
+    }
+ 
+.has-submenu >.submenu>li>a {
+  line-height:1; } 
+
+#logo {
+    width: 20em;
+}
+
+.cd-section {
+  min-height: 100%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding-top: 2.5em; }
+
+.wrapper {
+	min-height: 95vh;
+}  
+
+.sale {
+    color: #ff6600;
+}
+
+.price {
+    border: 3px solid #c90000;
+    padding: 1em 0em 2em 0em;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#best {
+    border: 5px solid #ff6600;
+    background-color: #fffccc;
+}
+
+.size {
+    padding: 1em 0em 2em 0em;
+    max-width: 80%;
+}
+
+.star-points {
+    padding: 1em 0em 0em 0em;
+    font-size: .9rem;
+}
+
+.star-points>ul>li {
+    display: inline;
+}
+
+.type {
+    max-width: 60%;
+}
+
+.standard {
+    max-width: 80%;
+}
+
+.step {
+    padding: 20% 0 5% 0;
+}
+
+
+/* Contact Form */
+.contact-form textarea, .contact-form input {
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    resize: none;
+    font: inherit;
+    font-size: 0.875rem;
+    font-weight: normal;
+    color: #333333;
+    padding: 1.3rem; }
+
+.contact-form label {
+    color: #c90000;
+    font-size: 1.2rem;
+    margin: 0 0 1rem 0;
+    font-weight: bold; 
+}
+
+.contact-form .submit {
+    border-radius: 3px;
+    background-color: #c90000;
+    color: #ffffff;
+    border: 0;
+    padding: 1rem 3.5rem;
+    font-weight: bold;
+    float: right;
+    margin: 0 0rem 2rem 0; 
+}
+
+.social {
+    color: #c90000;
+}
+
+.social:hover {
+    color: #ff6600;
+}
+
+.contact {
+    padding: 1rem 0rem 0rem 0;
+}
+
+@media only screen and (max-width: 40em) {
+    .contact>ul>li {
+        font-size:.8rem;
+    } 
+}
+
+.footer {
+    background-color: #fff;
+    box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+    padding: .5rem .5rem 0rem .5rem;
+}
